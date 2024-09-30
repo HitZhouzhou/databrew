@@ -1,0 +1,15 @@
+# 忽略整个文件夹
+alpaca-lora-main/
+open-instruct/
+try/
+experiments/
+code/model_finetuning/wandb/
+code/inference_test/__pycache__/
+# 忽略 data 和 models 文件夹中的所有内容
+data/*
+models/*
+
+# 但是保留 data 和 models 文件夹中的 .gitkeep 文件
+!data/.gitkeep
+!models/.gitkeep
+!experiments/.gitkeep

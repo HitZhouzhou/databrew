@@ -1,0 +1,6 @@
+{
+    "description": "没有任何格式,直接输入问题和答案",
+    "prompt_input": "{instruction}\n{input}",
+    "prompt_no_input": "{instruction}\n",
+    "response_split": ""    
+}

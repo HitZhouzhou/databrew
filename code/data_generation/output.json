@@ -1,0 +1,152 @@
+[
+    {
+        "instruction": "The answer to the question: What is the first name of the person whose company was selected because it had worked closely on employment programs with officials from Victoria's Jobs Department? is inside the article: , can you guess it ?",
+        "input": "",
+        "output": "Tony"
+    },
+    {
+        "instruction": "The following article contains an answer for the question: What is the name of the company that was awarded more than $30 million in contracts between late March and July? , can you please find it?",
+        "input": "",
+        "output": "Unified Security"
+    },
+    {
+        "instruction": "The following article contains an answer for the question: What is the name of the company that was never \"handed\" a $30 million contract? , can you please find it?",
+        "input": "",
+        "output": "Unified Security"
+    },
+    {
+        "instruction": "I have a test where I am given the following article, what is an answer for the question: What is the first name of the person who was no leader? ?",
+        "input": "",
+        "output": "Nelson"
+    },
+    {
+        "instruction": "Q: Who is the former lawyer and personal fixer?\n\nReferring to the passage above, the correct answer to the given question is",
+        "input": "",
+        "output": "Michael Cohen"
+    },
+    {
+        "instruction": "What is the answer for the question: What is the last name of the person who served as South Africa's first black president from 1994 to 1999? from the following article ?",
+        "input": "",
+        "output": "Mandela"
+    },
+    {
+        "instruction": "What is the answer for the question: What is the full name of the person that will be hosting the BET Awards? from the following article ?",
+        "input": "",
+        "output": "Amanda Seales"
+    },
+    {
+        "instruction": "I have a test where I am given the following article, what is an answer for the question: What is the full name of the person who is among the newly announced performers? ?",
+        "input": "",
+        "output": "Questlove"
+    },
+    {
+        "instruction": "Given the following context:\n\n\n\nanswer the following question:\n\nWhat is the full name of the person that is the host of the BET Awards 2020?",
+        "input": "",
+        "output": "Amanda Seales"
+    },
+    {
+        "instruction": "Q: What is the name of the network that is called Mumbai's lifeline?\n\nA:",
+        "input": "",
+        "output": "suburban"
+    },
+    {
+        "instruction": "I have a test where I am given the following article, what is an answer for the question: What is the full name of the person that said the state government's correspondence with the Railway ministry in this regard was in final stages? ?",
+        "input": "",
+        "output": "Vijay Wadettiwar"
+    },
+    {
+        "instruction": "The following article contains an answer for the question: What is the full name of the person that said the state government's correspondence with the Railway ministry in this regard was in final stages? , can you please find it?",
+        "input": "",
+        "output": "Vijay Wadettiwar"
+    },
+    {
+        "instruction": "The answer to the question: What is the full name of the person who said, \"Obviously, for many South Australians that won't be ideal, but we think that's the right approach\"? is inside the article: , can you guess it ?",
+        "input": "",
+        "output": "Mark McGowan"
+    },
+    {
+        "instruction": "What is the answer for the question: What is the full name of the person that said they don't think the shut down of the northern beach area helped? from the following article ?",
+        "input": "",
+        "output": "Mark McGowan"
+    },
+    {
+        "instruction": "What is the answer for the question: What is the last name of the person who thinks that NSW is infallible? from the following article ?",
+        "input": "",
+        "output": "McGowan"
+    },
+    {
+        "instruction": "I have a test where I am given the following article, what is an answer for the question: What is the first name of the person who embraced the principles of nonviolent resistance and civil disobedience? ?",
+        "input": "",
+        "output": "John"
+    },
+    {
+        "instruction": "What is the answer for the question: What is the full name of the person who was beaten by Alabama state troopers in 1965? from the following article ?",
+        "input": "",
+        "output": "John Lewis"
+    },
+    {
+        "instruction": "The answer to the question: What is the full name of the person that the House Majority Whip wants to honor? is inside the article: , can you guess it ?",
+        "input": "",
+        "output": "John Lewis"
+    },
+    {
+        "instruction": "The following article contains an answer for the question: What is the full name of the person who said that Trump would live his life caught in a vise between his failure to protect the American people from the coronavirus and his heartless crusade to take health-care protections away from American families? , can you please find it?",
+        "input": "",
+        "output": "Joe Biden"
+    },
+    {
+        "instruction": "The following article contains an answer for the question: What is the full name of the person who said he would look forward to ending Trump's crusade against health coverage? , can you please find it?",
+        "input": "",
+        "output": "Joe Biden"
+    },
+    {
+        "instruction": "I have a test where I am given the following article, what is an answer for the question: What is the full name of the person who has repeatedly contended that President Trump was not prepared to face the pandemic? ?",
+        "input": "",
+        "output": "Joe Biden"
+    },
+    {
+        "instruction": "Q: Who was the wide receiver that was acquired by the Giants?\n\nA:",
+        "input": "",
+        "output": "Dante Pettis"
+    },
+    {
+        "instruction": "I have a test where I am given the following article, what is an answer for the question: What is the full name of the person who will be eligible to play when the Giants host the Philadelphia Eagles on Nov. 15? ?",
+        "input": "",
+        "output": "Dante Pettis"
+    },
+    {
+        "instruction": "The answer to the question: What is the first name of the person who will be eligible to play when the Giants host the Philadelphia Eagles on Nov. 15? is inside the article: , can you guess it ?",
+        "input": "",
+        "output": "Dante"
+    },
+    {
+        "instruction": "What is the answer for the question: What is the first name of the person who said the protest was \"disturbing?\" from the following article ?",
+        "input": "",
+        "output": "Gretchen"
+    },
+    {
+        "instruction": "What is the answer for the question: What is the last name of the person who is hopeful Republican legislators will stop the partisan games and start working with her? from the following article ?",
+        "input": "",
+        "output": "Whitmer"
+    },
+    {
+        "instruction": "What is the answer for the question: What is the full name of the person that was offered assistance by Trump? from the following article ?",
+        "input": "",
+        "output": "Gretchen Whitmer"
+    },
+    {
+        "instruction": "What is the full name of the person who said, \"Streamlining DA notification processes in Queensland is a small but crucial change that will mean big projects can keep moving forwards as we maintain our fight against the impacts of COVID-19\"?\n\nAnswer the above question based on the context below:",
+        "input": "",
+        "output": "Dick"
+    },
+    {
+        "instruction": "I have a test where I am given the following article, what is an answer for the question: What is the full name of the person who said the coronavirus \"isn't going away\"? ?",
+        "input": "",
+        "output": "Mick Dick"
+    },
+    {
+        "instruction": "What is the answer for the question: What is the name of the person who said while the coronavirus \"isn't going away,\" projects had to continue and workers needed jobs? from the following article ?",
+        "input": "",
+        "output": "Dick"
+    }
+]
