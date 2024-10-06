@@ -46,7 +46,12 @@ def should_keep_output(answer):
         r"the provided answer is correct",  # "the provided answer is correct"
         r"\byes\b",  # "yes"
         r"judgement:\nyes",
-        
+        r"which is indeed correct",        
+        r"the answer accurately reflects",
+        r"directly answers the question",
+        r"indeed correct",
+        r"correct",
+        r"it is accurate",
     ]
 
     negative_patterns = [
@@ -57,6 +62,7 @@ def should_keep_output(answer):
         r"no, that's not correct",
         r"judgement:\nno",
         r"the answer is wrong",
+        r"is completely useless",
     ]
 
     ambiguous_patterns = [
@@ -80,8 +86,10 @@ def should_keep_output(answer):
     for pattern in ambiguous_patterns:
         if re.search(pattern, answer):
             counter["ambiguous_num"] += 1
+            print(f"Ambiguous answer:\n{answer}\n")
             return random.uniform(0,1)<0.8  # 随机决定是否保留
     counter["other_num"] += 1
+    print(f"Other answer:\n{answer}\n")
     return random.uniform(0,1)<0.5 # 默认保留
 
 

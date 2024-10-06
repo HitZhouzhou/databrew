@@ -6,7 +6,7 @@ source ~/.bashrc
 export NCCL_P2P_DISABLE=1
 export NCCL_IB_DISABLE=1
 # 定义 MULTIPLES 列表
-MULTIPLES=(1)  # 修改这个列表，加入你希望测试的倍数
+MULTIPLES=(1 5 10 20 50 100 200 400)  # 修改这个列表，加入你希望测试的倍数
 
 BASE_DIR="/data/zjy/databrew/code"
 TEST_FILE_PATH="/data/zjy/databrew/data/in/streaming_test.csv"
@@ -44,6 +44,7 @@ for MULTIPLE in "${MULTIPLES[@]}"; do
 
         # 运行数据合成脚本
         STEP1_START=$(date +%s)
+        echo "数据合成输出文件：$(realpath ../../experiments/bonito/bonito_${MULTIPLE}.out)"
         python bonito_sample.py \
             --unannotated_text_path "$UNANNOTATED_TEXT_PATH" \
             --multiple "$MULTIPLE" \
@@ -68,6 +69,7 @@ for MULTIPLE in "${MULTIPLES[@]}"; do
             source /data/zjy/anaconda3/bin/activate bonito
 
             # 运行数据筛选脚本
+            echo "数据筛选输出文件：$(realpath ../../experiments/bonito/bonito_select_${MULTIPLE}.out)"
             STEP1_1_START=$(date +%s)
             python bonito_select.py \
                 --input_json_path "$SYNTHETIC_DATA_PATH" \
@@ -107,7 +109,7 @@ for MULTIPLE in "${MULTIPLES[@]}"; do
 
     source /data/zjy/anaconda3/bin/activate llama_factory
     # 定义输出目录
-    FINETUNE_OUTPUT_DIR="saves/llama2-7b/lora/sft/${DATASET_NAME}_$(date "+%Y%m%d_%H%M%S")"
+    FINETUNE_OUTPUT_DIR=$(realpath "saves/llama2-7b/lora/sft/${DATASET_NAME}_$(date "+%Y%m%d_%H%M%S")")
     mkdir -p "$FINETUNE_OUTPUT_DIR"
 
     # 设置微调配置文件
@@ -122,7 +124,7 @@ for MULTIPLE in "${MULTIPLES[@]}"; do
         local output_file=$2
         local success=false
         while true; do
-            echo "运行模型微调脚本：$config_file"
+            echo "运行模型微调脚本：$(realpath config_file)"
             llamafactory-cli train "$config_file" >> "$output_file"
 
             if [ $? -eq 0 ]; then
@@ -150,14 +152,14 @@ for MULTIPLE in "${MULTIPLES[@]}"; do
 
     # Step 3: 推理测试
     echo "Step 3: 推理测试"
-    cd $BASE_DIR/inference_test
+    cd "$BASE_DIR/inference_test"
 
     # 使用 source 激活 conda 环境
     source /data/zjy/anaconda3/bin/activate RAG
 
     # 获取当前日期和时间
     current_date_time=$(date "+%Y%m%d_%H%M%S")
-    peft_model_path="$FINETUNE_OUTPUT_DIR"
+    peft_model_path=$(realpath $LLAMA_FACTORY_DIR/$FINETUNE_OUTPUT_DIR)
     peft_model_name=$(basename -- "$peft_model_path")
     use_adapter=True
 
