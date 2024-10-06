@@ -1,0 +1,540 @@
+========== 正在处理 MULTIPLE = 1 ==========
+Step 1: 数据合成
+数据文件 ../../data/out/synthetic_streaming_test_1.json 已存在，跳过数据合成步骤。
+Step 1.1: 更新 dataset_info.json
+数据集 synthetic_streaming_test_1 已存在于 dataset_info.json 中，跳过更新。
+Step 1.2: 移动数据文件到 LLaMA-Factory
+Step 2: 模型微调
+Step 3: 推理测试
+Running inference for model: synthetic_streaming_test_1_20241003_141026
+Log file: ../../experiments/inference/infer_no_context_20241003_141534_synthetic_streaming_test_1_20241003_141026.log
+Result file: ../../data/out/synthetic_streaming_test_1_20241003_141026_res.csv
+任务名：synthetic_streaming_test_1_20241003_141026_inference
+任务开始执行时间：2024-10-03 14:10:26
+数据合成时间：0 min 0 s
+模型微调时间：5 min 8 s
+推理测试时间：3 min 41 s
+总执行时间：8 min 49 s
+
+推理测试结果：
+Task: synthetic_streaming_test_1_20241003_141026_inference
+Average Precision: 33.085311501978175
+Average Recall: 29.721245630289797
+Average F1: 30.22844912434833
+所有步骤完成，查看 log/ 目录中的输出文件以获取详细信息。
+最终结果文件保存为：../../experiments/final_summary_20241003_141534_MULTIPLE_1.log
+========== 正在处理 MULTIPLE = 5 ==========
+Step 1: 数据合成
+Step 1.1: 更新 dataset_info.json
+数据集 synthetic_streaming_test_5 已添加到 dataset_info.json 中。
+Step 1.2: 移动数据文件到 LLaMA-Factory
+Step 2: 模型微调
+Step 3: 推理测试
+Running inference for model: synthetic_streaming_test_5_20241003_142938
+Log file: ../../experiments/inference/infer_no_context_20241003_143307_synthetic_streaming_test_5_20241003_142938.log
+Result file: ../../data/out/synthetic_streaming_test_5_20241003_142938_res.csv
+任务名：synthetic_streaming_test_5_20241003_142938_inference
+任务开始执行时间：2024-10-03 14:10:26
+数据合成时间：10 min 23 s
+模型微调时间：3 min 28 s
+推理测试时间：4 min 3 s
+总执行时间：17 min 54 s
+
+推理测试结果：
+Task: synthetic_streaming_test_5_20241003_142938_inference
+Average Precision: 34.43329043329044
+Average Recall: 30.557269882980723
+Average F1: 31.28347299772419
+所有步骤完成，查看 log/ 目录中的输出文件以获取详细信息。
+最终结果文件保存为：../../experiments/final_summary_20241003_143307_MULTIPLE_5.log
+========== 正在处理 MULTIPLE = 10 ==========
+Step 1: 数据合成
+Step 1.1: 更新 dataset_info.json
+数据集 synthetic_streaming_test_10 已添加到 dataset_info.json 中。
+Step 1.2: 移动数据文件到 LLaMA-Factory
+Step 2: 模型微调
+Step 3: 推理测试
+Running inference for model: synthetic_streaming_test_10_20241003_145046
+Log file: ../../experiments/inference/infer_no_context_20241003_145415_synthetic_streaming_test_10_20241003_145046.log
+Result file: ../../data/out/synthetic_streaming_test_10_20241003_145046_res.csv
+任务名：synthetic_streaming_test_10_20241003_145046_inference
+任务开始执行时间：2024-10-03 14:10:26
+数据合成时间：13 min 36 s
+模型微调时间：3 min 29 s
+推理测试时间：3 min 45 s
+总执行时间：20 min 50 s
+
+推理测试结果：
+Task: synthetic_streaming_test_10_20241003_145046_inference
+Average Precision: 32.543388710055375
+Average Recall: 29.28532589173849
+Average F1: 29.874288622407544
+所有步骤完成，查看 log/ 目录中的输出文件以获取详细信息。
+最终结果文件保存为：../../experiments/final_summary_20241003_145415_MULTIPLE_10.log
+========== 正在处理 MULTIPLE = 20 ==========
+Step 1: 数据合成
+数据文件 ../../data/out/synthetic_streaming_test_20.json 已存在，跳过数据合成步骤。
+Step 1.1: 更新 dataset_info.json
+数据集 synthetic_streaming_test_20 已添加到 dataset_info.json 中。
+Step 1.2: 移动数据文件到 LLaMA-Factory
+Step 2: 模型微调
+Step 3: 推理测试
+Running inference for model: synthetic_streaming_test_20_20241003_145800
+Log file: ../../experiments/inference/infer_no_context_20241003_150126_synthetic_streaming_test_20_20241003_145800.log
+Result file: ../../data/out/synthetic_streaming_test_20_20241003_145800_res.csv
+任务名：synthetic_streaming_test_20_20241003_145800_inference
+任务开始执行时间：2024-10-03 14:10:26
+数据合成时间：13 min 36 s
+模型微调时间：3 min 26 s
+推理测试时间：3 min 34 s
+总执行时间：20 min 36 s
+
+推理测试结果：
+Task: synthetic_streaming_test_20_20241003_145800_inference
+Average Precision: 31.329662996329656
+Average Recall: 27.026898369275866
+Average F1: 27.908254047617312
+所有步骤完成，查看 log/ 目录中的输出文件以获取详细信息。
+最终结果文件保存为：../../experiments/final_summary_20241003_150126_MULTIPLE_20.log
+========== 正在处理 MULTIPLE = 400 ==========
+Step 1: 数据合成
+数据合成失败，请查看 ../../experiments/bonito/bonito_400_20241003_154051.out 获取详细信息。
+========== 正在处理 MULTIPLE = 1 ==========
+Step 1: 数据合成
+数据文件 ../../data/out/synthetic_streaming_test_1.json 已存在，跳过数据合成步骤。
+Step 1.1: 更新 dataset_info.json
+数据集 synthetic_streaming_test_1 已存在于 dataset_info.json 中，跳过更新。
+Step 1.2: 移动数据文件到 LLaMA-Factory
+Step 2: 模型微调
+模型微调输出文件：/data/zjy/databrew/code/../experiments/llama_factory/llama2_lora_sft_synthetic_streaming_test_1_20241003_154711.log
+Step 3: 推理测试
+Running inference for model: synthetic_streaming_test_1_20241003_154711
+Log file: ../../experiments/inference/infer_no_context_20241003_154723_synthetic_streaming_test_1_20241003_154711.log
+Result file: ../../data/out/synthetic_streaming_test_1_20241003_154711_res.csv
+推理测试失败，请查看 ../../experiments/inference/infer_no_context_20241003_154723_synthetic_streaming_test_1_20241003_154711.log 获取详细信息。
+========== 正在处理 MULTIPLE = 1 ==========
+Step 1: 数据合成
+数据文件 /data/zjy/databrew/data/out/synthetic_streaming_test_1.json 已存在，跳过数据合成步骤。
+Step 1.1: 更新 dataset_info.json
+数据集 synthetic_streaming_test_1 已存在于 dataset_info.json 中，跳过更新。
+Step 1.2: 移动数据文件到 LLaMA-Factory
+Step 2: 模型微调
+模型微调输出文件：/data/zjy/databrew/experiments/llama_factory/llama2_lora_sft_synthetic_streaming_test_1_20241003_155127.log
+Step 3: 推理测试
+Running inference for model: synthetic_streaming_test_1_20241003_155127
+Log file: /data/zjy/databrew/experiments/inference/infer_no_context_20241003_155653_synthetic_streaming_test_1_20241003_155127.log
+Result file: /data/zjy/databrew/data/out/synthetic_streaming_test_1_20241003_155127_res.csv
+任务名：synthetic_streaming_test_1_20241003_155127_inference
+任务开始执行时间：2024-10-03 15:51:27
+数据合成时间：0 min 0 s
+模型微调时间：5 min 26 s
+推理测试时间：3 min 43 s
+总执行时间：9 min 9 s
+
+推理测试结果：
+Task: synthetic_streaming_test_1_20241003_155127_inference
+Average Precision: 35.40257356924024
+Average Recall: 31.653977813021996
+Average F1: 32.24086095641001
+所有步骤完成，查看 log/ 目录中的输出文件以获取详细信息。
+最终结果文件保存为：/data/zjy/databrew/experiments/final_summary_20241003_155653_MULTIPLE_1.log
+========== 正在处理 MULTIPLE = 5 ==========
+Step 1: 数据合成
+数据文件 /data/zjy/databrew/data/out/synthetic_streaming_test_5.json 已存在，跳过数据合成步骤。
+Step 1.1: 更新 dataset_info.json
+数据集 synthetic_streaming_test_5 已存在于 dataset_info.json 中，跳过更新。
+Step 1.2: 移动数据文件到 LLaMA-Factory
+Step 2: 模型微调
+模型微调输出文件：/data/zjy/databrew/experiments/llama_factory/llama2_lora_sft_synthetic_streaming_test_5_20241003_160036.log
+Step 3: 推理测试
+Running inference for model: synthetic_streaming_test_5_20241003_160036
+Log file: /data/zjy/databrew/experiments/inference/infer_no_context_20241003_162432_synthetic_streaming_test_5_20241003_160036.log
+Result file: /data/zjy/databrew/data/out/synthetic_streaming_test_5_20241003_160036_res.csv
+任务名：synthetic_streaming_test_5_20241003_160036_inference
+任务开始执行时间：2024-10-03 15:51:27
+数据合成时间：0 min 0 s
+模型微调时间：23 min 56 s
+推理测试时间：3 min 47 s
+总执行时间：27 min 43 s
+
+推理测试结果：
+Task: synthetic_streaming_test_5_20241003_160036_inference
+Average Precision: 36.747442497442506
+Average Recall: 33.82148374769637
+Average F1: 34.177799468663004
+所有步骤完成，查看 log/ 目录中的输出文件以获取详细信息。
+最终结果文件保存为：/data/zjy/databrew/experiments/final_summary_20241003_162432_MULTIPLE_5.log
+========== 正在处理 MULTIPLE = 10 ==========
+Step 1: 数据合成
+数据文件 /data/zjy/databrew/data/out/synthetic_streaming_test_10.json 已存在，跳过数据合成步骤。
+Step 1.1: 更新 dataset_info.json
+数据集 synthetic_streaming_test_10 已存在于 dataset_info.json 中，跳过更新。
+Step 1.2: 移动数据文件到 LLaMA-Factory
+Step 2: 模型微调
+模型微调输出文件：/data/zjy/databrew/experiments/llama_factory/llama2_lora_sft_synthetic_streaming_test_10_20241003_162820.log
+Step 3: 推理测试
+Running inference for model: synthetic_streaming_test_10_20241003_162820
+Log file: /data/zjy/databrew/experiments/inference/infer_no_context_20241003_165705_synthetic_streaming_test_10_20241003_162820.log
+Result file: /data/zjy/databrew/data/out/synthetic_streaming_test_10_20241003_162820_res.csv
+推理测试失败，请查看 /data/zjy/databrew/experiments/inference/infer_no_context_20241003_165705_synthetic_streaming_test_10_20241003_162820.log 获取详细信息。
+========== 正在处理 MULTIPLE = 10 ==========
+Step 1: 数据合成
+数据文件 /data/zjy/databrew/data/out/synthetic_streaming_test_10.json 已存在，跳过数据合成步骤。
+Step 1.1: 更新 dataset_info.json
+数据集 synthetic_streaming_test_10 已存在于 dataset_info.json 中，跳过更新。
+Step 1.2: 移动数据文件到 LLaMA-Factory
+Step 2: 模型微调
+模型微调输出文件：/data/zjy/databrew/experiments/llama_factory/llama2_lora_sft_synthetic_streaming_test_10_20241003_173513.log
+Step 3: 推理测试
+Running inference for model: synthetic_streaming_test_10_20241003_173513
+Log file: /data/zjy/databrew/experiments/inference/infer_no_context_20241003_173538_synthetic_streaming_test_10_20241003_173513.log
+Result file: /data/zjy/databrew/data/out/synthetic_streaming_test_10_20241003_173513_res.csv
+推理测试失败，请查看 /data/zjy/databrew/experiments/inference/infer_no_context_20241003_173538_synthetic_streaming_test_10_20241003_173513.log 获取详细信息。
+========== 正在处理 MULTIPLE = 10 ==========
+Step 1: 数据合成
+数据文件 /data/zjy/databrew/data/out/synthetic_streaming_test_10.json 已存在，跳过数据合成步骤。
+Step 1.1: 更新 dataset_info.json
+数据集 synthetic_streaming_test_10 已存在于 dataset_info.json 中，跳过更新。
+Step 1.2: 移动数据文件到 LLaMA-Factory
+Step 2: 模型微调
+模型微调输出文件：/data/zjy/databrew/experiments/llama_factory/llama2_lora_sft_synthetic_streaming_test_10_20241003_174441.log
+Step 3: 推理测试
+Running inference for model: synthetic_streaming_test_10_20241003_174441
+Log file: /data/zjy/databrew/experiments/inference/infer_no_context_20241003_174517_synthetic_streaming_test_10_20241003_174441.log
+Result file: /data/zjy/databrew/data/out/synthetic_streaming_test_10_20241003_174441_res.csv
+推理测试失败，请查看 /data/zjy/databrew/experiments/inference/infer_no_context_20241003_174517_synthetic_streaming_test_10_20241003_174441.log 获取详细信息。
+========== 正在处理 MULTIPLE = 10 ==========
+Step 1: 数据合成
+数据文件 /data/zjy/databrew/data/out/synthetic_streaming_test_10.json 已存在，跳过数据合成步骤。
+Step 1.1: 更新 dataset_info.json
+数据集 synthetic_streaming_test_10 已存在于 dataset_info.json 中，跳过更新。
+Step 1.2: 移动数据文件到 LLaMA-Factory
+Step 2: 模型微调
+========== 正在处理 MULTIPLE = 10 ==========
+Step 1: 数据合成
+数据文件 /data/zjy/databrew/data/out/synthetic_streaming_test_10.json 已存在，跳过数据合成步骤。
+Step 1.1: 更新 dataset_info.json
+数据集 synthetic_streaming_test_10 已存在于 dataset_info.json 中，跳过更新。
+Step 1.2: 移动数据文件到 LLaMA-Factory
+Step 2: 模型微调
+模型微调输出文件：/data/zjy/databrew/experiments/llama_factory/llama2_lora_sft_synthetic_streaming_test_10_20241003_175047.log
+Step 3: 推理测试
+Running inference for model: synthetic_streaming_test_10_20241003_175047
+Log file: /data/zjy/databrew/experiments/inference/infer_no_context_20241003_183702_synthetic_streaming_test_10_20241003_175047.log
+Result file: /data/zjy/databrew/data/out/synthetic_streaming_test_10_20241003_175047_res.csv
+任务名：synthetic_streaming_test_10_20241003_175047_inference
+任务开始执行时间：2024-10-03 17:50:46
+数据合成时间：0 min 0 s
+模型微调时间：46 min 15 s
+推理测试时间：3 min 43 s
+总执行时间：49 min 58 s
+
+推理测试结果：
+Task: synthetic_streaming_test_10_20241003_175047_inference
+Average Precision: 38.30690197356864
+Average Recall: 35.20401860050986
+Average F1: 35.584072866750546
+所有步骤完成，查看 log/ 目录中的输出文件以获取详细信息。
+最终结果文件保存为：/data/zjy/databrew/experiments/final_summary_20241003_183702_MULTIPLE_10.log
+========== 正在处理 MULTIPLE = 20 ==========
+Step 1: 数据合成
+数据文件 /data/zjy/databrew/data/out/synthetic_streaming_test_20.json 已存在，跳过数据合成步骤。
+Step 1.1: 更新 dataset_info.json
+数据集 synthetic_streaming_test_20 已存在于 dataset_info.json 中，跳过更新。
+Step 1.2: 移动数据文件到 LLaMA-Factory
+Step 2: 模型微调
+模型微调输出文件：
+Step 3: 推理测试
+Running inference for model: synthetic_streaming_test_20_20241003_192003
+Log file: /data/zjy/databrew/experiments/inference/infer_no_context_20241003_204640_synthetic_streaming_test_20_20241003_192003.log
+Result file: /data/zjy/databrew/data/out/synthetic_streaming_test_20_20241003_192003_res.csv
+任务名：synthetic_streaming_test_20_20241003_192003_inference
+任务开始执行时间：2024-10-03 19:20:03
+数据合成时间：0 min 0 s
+模型微调时间：86 min 37 s
+推理测试时间：3 min 39 s
+总执行时间：90 min 16 s
+
+推理测试结果：
+Task: synthetic_streaming_test_20_20241003_192003_inference
+Average Precision: 38.651413318079996
+Average Recall: 35.86368479258057
+Average F1: 36.10820094996578
+所有步骤完成，查看 log/ 目录中的输出文件以获取详细信息。
+最终结果文件保存为：/data/zjy/databrew/experiments/final_summary_20241003_204640_MULTIPLE_20.log
+========== 正在处理 MULTIPLE = 50 ==========
+Step 1: 数据合成
+数据文件 /data/zjy/databrew/data/out/synthetic_streaming_test_50.json 已存在，跳过数据合成步骤。
+Step 1.1: 更新 dataset_info.json
+数据集 synthetic_streaming_test_50 已存在于 dataset_info.json 中，跳过更新。
+Step 1.2: 移动数据文件到 LLaMA-Factory
+Step 2: 模型微调
+模型微调输出文件：/data/zjy/databrew/experiments/llama_factory/llama2_lora_sft_synthetic_streaming_test_50_20241003_212534.log
+运行模型微调脚本：examples/train_lora/llama2_lora_sft_synthetic_streaming_test_50.yaml
+运行模型微调脚本：examples/train_lora/llama2_lora_sft_synthetic_streaming_test_50.yaml
+Step 3: 推理测试
+Running inference for model: synthetic_streaming_test_50_20241003_212534
+Log file: /data/zjy/databrew/experiments/inference/infer_no_context_20241004_040012_synthetic_streaming_test_50_20241003_212534.log
+Result file: /data/zjy/databrew/data/out/synthetic_streaming_test_50_20241003_212534_res.csv
+任务名：synthetic_streaming_test_50_20241003_212534_inference
+任务开始执行时间：2024-10-03 21:25:34
+数据合成时间：0 min 0 s
+模型微调时间：394 min 37 s
+推理测试时间：3 min 46 s
+总执行时间：398 min 23 s
+
+推理测试结果：
+Task: synthetic_streaming_test_50_20241003_212534_inference
+Average Precision: 39.41548608215276
+Average Recall: 35.992846432216936
+Average F1: 36.47984883503257
+所有步骤完成，查看 log/ 目录中的输出文件以获取详细信息。
+最终结果文件保存为：/data/zjy/databrew/experiments/final_summary_20241004_040012_MULTIPLE_50.log
+========== 正在处理 MULTIPLE = 400 ==========
+Step 1: 数据合成
+数据合成失败，请查看 /data/zjy/databrew/experiments/bonito/bonito_400_20241004_220015.out 获取详细信息。
+========== 正在处理 MULTIPLE = 400 ==========
+Step 1: 数据合成
+Step 1.1: 更新 dataset_info.json
+数据集 synthetic_streaming_test_400 已添加到 dataset_info.json 中。
+Step 1.2: 移动数据文件到 LLaMA-Factory
+Step 2: 模型微调
+模型微调输出文件：/data/zjy/databrew/experiments/llama_factory/llama2_lora_sft_synthetic_streaming_test_400_20241005_030726.log
+运行模型微调脚本：examples/train_lora/llama2_lora_sft_synthetic_streaming_test_400.yaml
+Step 3: 推理测试
+Running inference for model: synthetic_streaming_test_400_20241005_030726
+Log file: /data/zjy/databrew/experiments/inference/infer_no_context_20241006_092656_synthetic_streaming_test_400_20241005_030726.log
+Result file: /data/zjy/databrew/data/out/synthetic_streaming_test_400_20241005_030726_res.csv
+任务名：synthetic_streaming_test_400_20241005_030726_inference
+任务开始执行时间：2024-10-04 22:30:30
+数据合成时间：276 min 56 s
+模型微调时间：1819 min 30 s
+推理测试时间：3 min 50 s
+总执行时间：2100 min 16 s
+
+推理测试结果：
+Task: synthetic_streaming_test_400_20241005_030726_inference
+Average Precision: 46.593999260665925
+Average Recall: 42.40682976518888
+Average F1: 43.06063900281061
+所有步骤完成，查看 log/ 目录中的输出文件以获取详细信息。
+最终结果文件保存为：/data/zjy/databrew/experiments/final_summary_20241006_092656_MULTIPLE_400.log
+========== 正在处理 MULTIPLE = 1 NEED_FILTER = true ==========
+Step 1: 数据合成
+数据文件 /data/zjy/databrew/data/out/synthetic_streaming_test_1_con.json 已存在，跳过数据合成步骤。
+Step 1.1: 筛选合成数据
+筛选后的数据文件 /data/zjy/databrew/data/out/filtered_streaming_test_1_con.json 已存在，跳过筛选步骤。
+筛选后的数据文件：/data/zjy/databrew/data/out/filtered_streaming_test_1_con.json
+筛选数据耗时：0:0:0
+Step 1.2: 更新 dataset_info.json
+数据集 synthetic_streaming_test_1_con 已存在于 dataset_info.json 中，跳过更新。
+Step 1.3: 移动数据文件到 LLaMA-Factory
+Step 2: 模型微调
+模型微调输出文件：/data/zjy/databrew/experiments/llama_factory/llama2_lora_sft_synthetic_streaming_test_1_con_20241006_114826.log
+运行模型微调脚本：examples/train_lora/llama2_lora_sft_synthetic_streaming_test_1_con.yaml
+模型微调耗时：0:3:36
+Step 3: 推理测试
+Running inference for model: synthetic_streaming_test_1_con_20241006_114826
+Log file: /data/zjy/databrew/experiments/inference/infer_no_context_20241006_115202_synthetic_streaming_test_1_con_20241006_114826.log
+Result file: /data/zjy/databrew/data/out/synthetic_streaming_test_1_con_20241006_114826_res.csv
+任务名：synthetic_streaming_test_1_con_20241006_114826_inference
+任务开始执行时间：2024-10-06 11:48:25
+数据合成时间：0:0:0
+模型微调时间：0:3:36
+推理测试时间：0:3:59
+总执行时间：0:7:35
+
+推理测试结果：
+Task: synthetic_streaming_test_1_con_20241006_114826_inference
+Average Precision: 35.62108645441979
+Average Recall: 32.558055432785885
+Average F1: 32.93921873176619
+所有步骤完成，查看 log/ 目录中的输出文件以获取详细信息。
+最终结果文件保存为：/data/zjy/databrew/experiments/final_summary_20241006_115202_MULTIPLE_1.log
+========== 正在处理 MULTIPLE = 5 NEED_FILTER = true ==========
+Step 1: 数据合成
+数据合成详细信息：/data/zjy/databrew/experiments/bonito/bonito_5.out
+合成数据耗时：0:10:20
+Step 1.1: 筛选合成数据
+筛选数据详细信息：/data/zjy/databrew/experiments/bonito/bonito_select_5.out
+筛选后的数据文件：/data/zjy/databrew/data/out/filtered_streaming_test_5_con.json
+筛选数据耗时：0:16:56
+Step 1.2: 更新 dataset_info.json
+数据集 synthetic_streaming_test_5_con 已添加到 dataset_info.json 中。
+Step 1.3: 移动数据文件到 LLaMA-Factory
+Step 2: 模型微调
+模型微调输出文件：/data/zjy/databrew/experiments/llama_factory/llama2_lora_sft_synthetic_streaming_test_5_con_20241006_122318.log
+运行模型微调脚本：examples/train_lora/llama2_lora_sft_synthetic_streaming_test_5_con.yaml
+模型微调耗时：0:14:6
+Step 3: 推理测试
+Running inference for model: synthetic_streaming_test_5_con_20241006_122318
+Log file: /data/zjy/databrew/experiments/inference/infer_no_context_20241006_123724_synthetic_streaming_test_5_con_20241006_122318.log
+Result file: /data/zjy/databrew/data/out/synthetic_streaming_test_5_con_20241006_122318_res.csv
+任务名：synthetic_streaming_test_5_con_20241006_122318_inference
+任务开始执行时间：2024-10-06 11:56:02
+数据合成时间：0:10:20
+模型微调时间：0:14:6
+推理测试时间：0:3:36
+总执行时间：0:28:2
+
+推理测试结果：
+Task: synthetic_streaming_test_5_con_20241006_122318_inference
+Average Precision: 35.93200184866855
+Average Recall: 32.73434579411238
+Average F1: 33.109493951655274
+所有步骤完成，查看 log/ 目录中的输出文件以获取详细信息。
+最终结果文件保存为：/data/zjy/databrew/experiments/final_summary_20241006_123724_MULTIPLE_5.log
+========== 正在处理 MULTIPLE = 10 NEED_FILTER = true ==========
+Step 1: 数据合成
+数据合成详细信息：/data/zjy/databrew/experiments/bonito/bonito_10.out
+合成数据耗时：0:13:22
+Step 1.1: 筛选合成数据
+筛选数据详细信息：/data/zjy/databrew/experiments/bonito/bonito_select_10.out
+筛选后的数据文件：/data/zjy/databrew/data/out/filtered_streaming_test_10_con.json
+筛选数据耗时：0:32:44
+Step 1.2: 更新 dataset_info.json
+数据集 synthetic_streaming_test_10_con 已添加到 dataset_info.json 中。
+Step 1.3: 移动数据文件到 LLaMA-Factory
+Step 2: 模型微调
+模型微调输出文件：/data/zjy/databrew/experiments/llama_factory/llama2_lora_sft_synthetic_streaming_test_10_con_20241006_132706.log
+运行模型微调脚本：examples/train_lora/llama2_lora_sft_synthetic_streaming_test_10_con.yaml
+模型微调耗时：0:24:16
+Step 3: 推理测试
+Running inference for model: synthetic_streaming_test_10_con_20241006_132706
+Log file: /data/zjy/databrew/experiments/inference/infer_no_context_20241006_135122_synthetic_streaming_test_10_con_20241006_132706.log
+Result file: /data/zjy/databrew/data/out/synthetic_streaming_test_10_con_20241006_132706_res.csv
+任务名：synthetic_streaming_test_10_con_20241006_132706_inference
+任务开始执行时间：2024-10-06 12:41:00
+数据合成时间：0:13:22
+模型微调时间：0:24:16
+推理测试时间：0:3:43
+总执行时间：0:41:21
+
+推理测试结果：
+Task: synthetic_streaming_test_10_con_20241006_132706_inference
+Average Precision: 37.044427544427535
+Average Recall: 34.010272848109615
+Average F1: 34.34228646720604
+所有步骤完成，查看 log/ 目录中的输出文件以获取详细信息。
+最终结果文件保存为：/data/zjy/databrew/experiments/final_summary_20241006_135122_MULTIPLE_10.log
+========== 正在处理 MULTIPLE = 20 NEED_FILTER = true ==========
+Step 1: 数据合成
+数据合成详细信息：/data/zjy/databrew/experiments/bonito/bonito_20.out
+合成数据耗时：0:19:31
+Step 1.1: 筛选合成数据
+筛选数据详细信息：/data/zjy/databrew/experiments/bonito/bonito_select_20.out
+筛选后的数据文件：/data/zjy/databrew/data/out/filtered_streaming_test_20_con.json
+筛选数据耗时：1:64:55
+Step 1.2: 更新 dataset_info.json
+数据集 synthetic_streaming_test_20_con 已添加到 dataset_info.json 中。
+Step 1.3: 移动数据文件到 LLaMA-Factory
+Step 2: 模型微调
+模型微调输出文件：/data/zjy/databrew/experiments/llama_factory/llama2_lora_sft_synthetic_streaming_test_20_con_20241006_151931.log
+运行模型微调脚本：examples/train_lora/llama2_lora_sft_synthetic_streaming_test_20_con.yaml
+========== 正在处理 MULTIPLE = 1 NEED_FILTER = true ==========
+Step 1: 数据合成
+数据文件 /data/zjy/databrew/data/out/synthetic_streaming_test_1_con.json 已存在，跳过数据合成步骤。
+Step 1.1: 筛选合成数据
+筛选后的数据文件 /data/zjy/databrew/data/out/filtered_streaming_test_1_con.json 已存在，跳过筛选步骤。
+筛选后的数据文件：/data/zjy/databrew/data/out/filtered_streaming_test_1_con.json
+筛选数据耗时：0:0:0
+Step 1.2: 更新 dataset_info.json
+数据集 synthetic_streaming_test_1_con 已存在于 dataset_info.json 中，跳过更新。
+Step 1.3: 移动数据文件到 LLaMA-Factory
+Step 2: 模型微调
+模型微调输出文件：/data/zjy/databrew/experiments/llama_factory/llama2_lora_sft_synthetic_streaming_test_1_con_20241006_161944.log
+运行模型微调脚本：examples/train_lora/llama2_lora_sft_synthetic_streaming_test_1_con.yaml
+模型微调耗时：0:4:33
+Step 3: 推理测试
+Running inference for model: synthetic_streaming_test_1_con_20241006_161944
+Log file: /data/zjy/databrew/experiments/inference/infer_no_context_20241006_162417_synthetic_streaming_test_1_con_20241006_161944.log
+Result file: /data/zjy/databrew/data/out/synthetic_streaming_test_1_con_20241006_161944_res.csv
+任务名：synthetic_streaming_test_1_con_20241006_161944_inference
+任务开始执行时间：2024-10-06 16:19:44
+数据合成时间：0:0:0
+模型微调时间：0:4:33
+推理测试时间：0:3:59
+总执行时间：0:8:32
+
+推理测试结果：
+Task: synthetic_streaming_test_1_con_20241006_161944_inference
+Average Precision: 35.24131490798159
+Average Recall: 31.667940834879744
+Average F1: 32.27546159879576
+所有步骤完成，查看 log/ 目录中的输出文件以获取详细信息。
+最终结果文件保存为：/data/zjy/databrew/experiments/final_summary_20241006_162417_MULTIPLE_1.log
+========== 正在处理 MULTIPLE = 5 NEED_FILTER = true ==========
+Step 1: 数据合成
+数据文件 /data/zjy/databrew/data/out/synthetic_streaming_test_5_con.json 已存在，跳过数据合成步骤。
+Step 1.1: 筛选合成数据
+筛选数据详细信息：/data/zjy/databrew/experiments/bonito/bonito_select_5.out
+筛选后的数据文件：/data/zjy/databrew/data/out/filtered_streaming_test_5_con.json
+筛选数据耗时：0:17:9
+Step 1.2: 更新 dataset_info.json
+数据集 synthetic_streaming_test_5_con 已存在于 dataset_info.json 中，跳过更新。
+Step 1.3: 移动数据文件到 LLaMA-Factory
+Step 2: 模型微调
+模型微调输出文件：/data/zjy/databrew/experiments/llama_factory/llama2_lora_sft_synthetic_streaming_test_5_con_20241006_164525.log
+运行模型微调脚本：examples/train_lora/llama2_lora_sft_synthetic_streaming_test_5_con.yaml
+模型微调耗时：0:20:19
+Step 3: 推理测试
+Running inference for model: synthetic_streaming_test_5_con_20241006_164525
+Log file: /data/zjy/databrew/experiments/inference/infer_no_context_20241006_170544_synthetic_streaming_test_5_con_20241006_164525.log
+Result file: /data/zjy/databrew/data/out/synthetic_streaming_test_5_con_20241006_164525_res.csv
+任务名：synthetic_streaming_test_5_con_20241006_164525_inference
+任务开始执行时间：2024-10-06 16:28:16
+数据合成时间：0:0:0
+模型微调时间：0:20:19
+推理测试时间：0:3:44
+总执行时间：0:24:3
+
+推理测试结果：
+Task: synthetic_streaming_test_5_con_20241006_164525_inference
+Average Precision: 37.78789937123272
+Average Recall: 34.22683376450148
+Average F1: 34.76952304768699
+所有步骤完成，查看 log/ 目录中的输出文件以获取详细信息。
+最终结果文件保存为：/data/zjy/databrew/experiments/final_summary_20241006_170544_MULTIPLE_5.log
+========== 正在处理 MULTIPLE = 10 NEED_FILTER = true ==========
+Step 1: 数据合成
+数据文件 /data/zjy/databrew/data/out/synthetic_streaming_test_10_con.json 已存在，跳过数据合成步骤。
+Step 1.1: 筛选合成数据
+筛选数据详细信息：/data/zjy/databrew/experiments/bonito/bonito_select_10.out
+数据筛选失败，请查看 /data/zjy/databrew/experiments/bonito/bonito_select_10_20241006_171109.out 获取详细信息。
+========== 正在处理 MULTIPLE = 10 NEED_FILTER = true ==========
+Step 1: 数据合成
+数据文件 /data/zjy/databrew/data/out/synthetic_streaming_test_10_con.json 已存在，跳过数据合成步骤。
+Step 1.1: 筛选合成数据
+筛选数据详细信息：/data/zjy/databrew/experiments/bonito/bonito_select_10.out
+筛选后的数据文件：/data/zjy/databrew/data/out/filtered_streaming_test_10_con.json
+筛选数据耗时：0:33:5
+Step 1.2: 更新 dataset_info.json
+数据集 synthetic_streaming_test_10_con 已存在于 dataset_info.json 中，跳过更新。
+Step 1.3: 移动数据文件到 LLaMA-Factory
+Step 2: 模型微调
+模型微调输出文件：/data/zjy/databrew/experiments/llama_factory/llama2_lora_sft_synthetic_streaming_test_10_con_20241006_175258.log
+运行模型微调脚本：examples/train_lora/llama2_lora_sft_synthetic_streaming_test_10_con.yaml
+模型微调耗时：0:36:42
+Step 3: 推理测试
+Running inference for model: synthetic_streaming_test_10_con_20241006_175258
+Log file: /data/zjy/databrew/experiments/inference/infer_no_context_20241006_182940_synthetic_streaming_test_10_con_20241006_175258.log
+Result file: /data/zjy/databrew/data/out/synthetic_streaming_test_10_con_20241006_175258_res.csv
+任务名：synthetic_streaming_test_10_con_20241006_175258_inference
+任务开始执行时间：2024-10-06 17:19:52
+数据合成时间：0:0:0
+模型微调时间：0:36:42
+推理测试时间：0:3:44
+总执行时间：0:40:26
+
+推理测试结果：
+Task: synthetic_streaming_test_10_con_20241006_175258_inference
+Average Precision: 38.92611842611843
+Average Recall: 35.78614346333645
+Average F1: 36.04058709690167
+所有步骤完成，查看 log/ 目录中的输出文件以获取详细信息。
+最终结果文件保存为：/data/zjy/databrew/experiments/final_summary_20241006_182940_MULTIPLE_10.log
+========== 正在处理 MULTIPLE = 20 NEED_FILTER = true ==========
+Step 1: 数据合成
+数据文件 /data/zjy/databrew/data/out/synthetic_streaming_test_20_con.json 已存在，跳过数据合成步骤。
+Step 1.1: 筛选合成数据
+筛选数据详细信息：/data/zjy/databrew/experiments/bonito/bonito_select_20.out

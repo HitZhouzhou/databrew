@@ -1,8 +1,9 @@
 #!/bin/bash
 
+source /data/zjy/anaconda3/bin/activate RAG
 # 获取模型路径和是否使用适配器
 
-peft_model_path="/data/zjy/databrew/models/stqa_lora_synthetic_50_finetune_20240930_135121/checkpoint-486"  # 这里修改为你的模型路径
+peft_model_path="/data/zjy/databrew/LLaMA-Factory/saves/llama2-7b/lora/sft/stqa_test/"  # 这里修改为你的模型路径
 use_adapter=True  # 或者 False
 test_file_path="../../data/in/streaming_test.csv"
 
